@@ -1,0 +1,3 @@
+# To understand relation between .dockerignore and .gitignore head on to ( https://stackoverflow.com/questions/58707272/should-dockerignore-typically-be-a-superset-of-gitignore ) This very well explains the relations and also why some files prefent in our repos are not dockerignore-d
+**/node_modules
+**/npm-debug.log
